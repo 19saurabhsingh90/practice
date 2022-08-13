@@ -10,8 +10,7 @@ public class EvenDigitNumberCount {
 
         int counter = 0;
         if (nums.length == 0) return counter;
-        for (int num :
-                nums) {
+        for (int num : nums) {
             if (getDigitCount(num) % 2 == 0 && num !=0) {
                 counter++;
             }
